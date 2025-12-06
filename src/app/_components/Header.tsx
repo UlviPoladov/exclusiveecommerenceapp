@@ -381,9 +381,7 @@ export default function HeaderComponent() {
                             <span className="text-sm font-medium text-gray-800 truncate">
                               {product.title}
                             </span>
-                            <span className="text-xs font-semibold text-[#db4444]">
-                              {PRICE_FORMATTER.format(product.price)}
-                            </span>
+                            <span className="text-sm text-gray-600"></span>
                           </div>
                         </button>
                       </li>
